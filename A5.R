@@ -108,9 +108,6 @@ barplot(WB_consumption$total_consumption,
         main = "Total Consumption per District",
         cex.names = 0.7) # Adjust the size of district names if needed
 
-
-# b) Plot {'any variable of your choice'} on the Karnataka state map using NSSO68.csv data
-
 library(ggplot2) 
 library(sf) # mapping
 library(dplyr) 
